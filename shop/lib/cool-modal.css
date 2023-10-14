@@ -1,0 +1,71 @@
+.cool-modal-background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0009;
+}
+
+.cool-modal-container{
+  position: relative;
+  background-color: white;
+  padding: 1rem;
+  border-radius: .5rem;
+  box-shadow: 2px 2px 3px #0009;
+}
+
+.cool-modal-close-button{
+  position: absolute;
+  right: -12px;
+  top: -12px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  color: white;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+}
+
+.cool-modal-button{
+  padding: 0.5rem;
+  background-color: rgb(31, 147, 255);
+  color: white;
+  list-style: none;
+  margin: .5rem 0;
+  width: fit-content;
+  border-radius: .2rem;
+  cursor: pointer;
+}
+
+.cool-modal-message{
+  padding: .5rem;
+}
+
+.modal-type-info > .cool-modal-message{
+  background-color: #0055bb;
+  color: white;
+}
+
+.modal-type-success > .cool-modal-message{
+  background-color: #449900;
+  color: white;
+}
+
+.modal-type-warning > .cool-modal-message{
+  background-color: #ff8800;
+  color: white;
+}
+
+.modal-type-error > .cool-modal-message{
+  background-color: #990000;
+  color: white;
+}

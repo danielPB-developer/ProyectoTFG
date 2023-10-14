@@ -1,0 +1,27 @@
+#listado-marcas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+#listado-marcas a {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20%;
+          flex: 1 1 20%;
+  font-size: 1.5rem;
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+#listado-marcas a p {
+  margin: 0;
+  background-color: rgb(36, 36, 36);
+  color: white;
+  text-transform: uppercase;
+  padding: 0.5rem 0;
+}
+#listado-marcas a img {
+  margin-top: 1rem;
+}/*# sourceMappingURL=brands.css.map */

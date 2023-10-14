@@ -1,0 +1,23 @@
+#nav-principal{
+    margin-top: 1rem;
+    ul{
+        display: flex;
+        gap: 0;
+        padding: 0;
+        margin: 0;
+        li{
+            list-style: none;
+            &.nav-principal-link{
+                cursor: pointer;
+                padding: $global-padding $global-padding + .5;
+                &.hover{
+                    background-color: lighten($blue-1, 40%);
+                }
+                &.actual{
+                    background-color: $blue-1;
+                    color: white;
+                }
+            }
+        }
+    }
+}

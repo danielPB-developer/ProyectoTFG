@@ -1,0 +1,31 @@
+#order-container {
+  margin-bottom: 4rem;
+}
+#order-container table {
+  width: 100%;
+  margin: 2rem auto;
+}
+#order-container table td {
+  padding: 0.5rem;
+}
+#order-container table tr:nth-of-type(odd) {
+  background-color: whitesmoke;
+}
+#order-container table .importe-total:nth-of-type(odd) {
+  background-color: whitesmoke;
+  color: white;
+  font-size: 1.2rem;
+}
+#order-container table img {
+  max-width: 120px;
+}
+#order-container button {
+  color: #fff;
+  border: 2px solid #00af00;
+  background-color: #00af00;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin: 0.5rem;
+}/*# sourceMappingURL=order.css.map */

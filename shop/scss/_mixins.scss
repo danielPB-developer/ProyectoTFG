@@ -1,0 +1,14 @@
+@mixin button($radius,$bgcolor, $color,$fontSize, $padding){
+    border-radius: $radius;
+    border:2px solid $bgcolor;
+    color:$color;
+    background-color: $bgcolor;
+    font-size: $fontSize;
+    padding: $padding;
+    transition: all .5s ease-out;
+    cursor: pointer;
+    &:hover{
+      background-color: $color;
+      color:$bgcolor;
+    }
+  }

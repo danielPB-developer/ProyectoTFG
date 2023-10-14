@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--<link rel="stylesheet" href="../../lib/">-->
+    <link rel="stylesheet" href="../../css/theme.min.css">
+    <link rel="stylesheet" href="../../css/login.min.css">
+
+    <script src="../../js/global.js"></script>
+    <!--<script src="../../lib/"></script>-->
+    <script src="../../classes/product_cart_class.js"></script>
+    <script src="../../classes/cart_class.js" defer></script>
+    <script src="../../js/session.js" defer></script>
+    <script src="../../js/routes.js" defer></script>
+    <script src="js/login.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="header-logo"><img src="../../images/logo-w.png" alt=""></div>
+          <div class="header-searcher"><input type="search" placeholder="Buscar producto"><label for=""></label></div>
+          <div class="header-users">
+            <a href="../../pages/login/index.html" title="login"><i class="icon icon-user"></i></a>
+          </div>
+    <div class="header-cart">
+            <i class="icon icon-cart"></i><span id="items-counter" data-count=0>0</span>
+            <div class="cart-container">
+              <div class="cart-container-body">El carrito está vacio</div>
+              <div class="cart-container-sumatory">Total: <span class="cart-total" data-total=0>0</span></div>
+              <div class="cart-container-buttons">
+                <button id="resetCart">Vaciar carrito</button>
+                <button id="goCheckout">Realizar pedido</button>
+              </div>
+            </div>
+          </div>
+    </div>
+        <nav id="nav-principal" class="container">
+        </nav>
+      </header>
+
+    <main>
+        <h1>Iniciar sesion</h1>
+
+        <form id="loginForm"">
+            <fieldset>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </fieldset>
+
+            <fieldset>
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" required>
+            </fieldset>
+
+            <input type="submit" value="Iniciar sesion"></input>
+        </form>
+    </main>
+    <footer>
+      <div class="container">
+        <div>
+          <h2>Logo&Demo</h2>
+          <img src="../../images/logo-w.png" alt="">
+          <p>Rem vitae facilis qui? Autem itaque accusantium maiores tempore. Quia sequi et consequuntur? Nulla aperiam
+            dignissimos, architecto dicta necessitatibus explicabo repellendus dolore ad quo! Maiores nostrum odit dolore
+            vero iusto tempora accusantium at doloremque.</p>
+        </div>
+        <div>
+          <div>
+            <h2>Quia sequi</h2>
+            <ul>
+              <li><a href="">Autem itaque accusantium</a></li>
+              <li><a href="">Epellendus dolore ad quo</a></li>
+              <li><a href="">Fugiat praesentium facilis</a></li>
+              <li><a href="">Placeat quae magnam</a></li>
+              <li><a href="">Eaque corporis quaerat</a></li>
+              <li><a href="">Facere modi doloribus</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2>Provident soluta</h2>
+            <ul>
+              <li><a href="">Repellat tempore provident</a></li>
+              <li><a href="">Laboriosam ipsum earum</a></li>
+              <li><a href="">Maiores quidem magni</a></li>
+              <li><a href="">Placeat quae magnam</a></li>
+              <li><a href="">Laudantium non</a></li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h2>Contact width as</h2>
+          <address>
+            <p><strong>Logo&Demo</strong></p>
+            <p>C/ Mayor, 54 28001, Madrid, España</p>
+            <p>(+34) 91 700 00 00</p>
+            <p>info@logoanddemo.com</p>
+          </address>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>

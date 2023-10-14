@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/theme.min.css">
+    <link rel="stylesheet" href="../../css/order.min.css">
+
+    <script src="../../js/global.js"></script>
+    <script src="../../classes/product_cart_class.js"></script>
+    <script src="../../classes/miniatura-producto-class.js"></script>
+    <script src="../../classes/cart_class.js" defer></script>
+    <script src="../../js/session.js" defer></script>
+    <script src="../../js/routes.js" defer></script>
+    <script src="js/order.js" defer></script>
+    
+</head>
+<body class="home-pages">
+    <header>
+        <div class="container">
+            <div class="header-logo"><img src="../../images/logo-w.png" alt=""></div>
+            <div class="header-searcher"><input type="search" placeholder="Buscar producto"><label for=""></label></div>
+
+            <div class="header-users">
+              <a href="../../pages/login/index.html" title="login"><i class="icon icon-user"></i></a>
+            </div>
+
+            <div class="header-cart">
+              <i class="icon icon-cart"></i><span class="items-counter" data-count="0">0</span>
+              <div class="cart-container">
+                <div class="cart-container-body">El carrito está vacio</div>
+                <div class="cart-container-sumatory">Total: <span class="cart-total">0</span></div>
+                <div class="cart-container-buttons"><button id="resetCart">reset</button><button id="goCheckout">buy</button></div>
+              </div>
+            </div>
+          </div>
+        <nav id="nav-principal" class="container"></nav>
+    </header>
+    <main>
+        <h1>Pedido</h1>
+        <div id="order-container"></div>
+    </main>
+    <footer>
+      <div class="container">
+        <div>
+          <h2>Logo&Demo</h2>
+          <img src="../../images/logo-w.png" alt="">
+          <p>Rem vitae facilis qui? Autem itaque accusantium maiores tempore. Quia sequi et consequuntur? Nulla aperiam
+            dignissimos, architecto dicta necessitatibus explicabo repellendus dolore ad quo! Maiores nostrum odit dolore
+            vero iusto tempora accusantium at doloremque.</p>
+        </div>
+        <div>
+          <div>
+            <h2>Quia sequi</h2>
+            <ul>
+              <li><a href="">Autem itaque accusantium</a></li>
+              <li><a href="">Epellendus dolore ad quo</a></li>
+              <li><a href="">Fugiat praesentium facilis</a></li>
+              <li><a href="">Placeat quae magnam</a></li>
+              <li><a href="">Eaque corporis quaerat</a></li>
+              <li><a href="">Facere modi doloribus</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2>Provident soluta</h2>
+            <ul>
+              <li><a href="">Repellat tempore provident</a></li>
+              <li><a href="">Laboriosam ipsum earum</a></li>
+              <li><a href="">Maiores quidem magni</a></li>
+              <li><a href="">Placeat quae magnam</a></li>
+              <li><a href="">Laudantium non</a></li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h2>Contact width as</h2>
+          <address>
+            <p><strong>Logo&Demo</strong></p>
+            <p>C/ Mayor, 54 28001, Madrid, España</p>
+            <p>(+34) 91 700 00 00</p>
+            <p>info@logoanddemo.com</p>
+          </address>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>

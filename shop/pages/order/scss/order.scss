@@ -1,0 +1,31 @@
+#order-container{
+    margin-bottom: 4rem;
+    table{
+        width: 100%;
+        margin: 2rem auto;
+        td{
+            padding: .5rem;
+        }
+        tr:nth-of-type(odd){
+            background-color: whitesmoke;
+        }
+        .importe-total:nth-of-type(odd){
+            background-color: whitesmoke;
+            color: white;
+            font-size: 1.2rem;
+        }
+        img{
+            max-width: 120px;
+        }
+    }
+    button{
+        color: #fff;
+        border: 2px solid #00af00;
+        background-color: #00af00;
+        font-size: 1rem;
+        padding: .5rem 1rem;
+        border-radius: .3rem;
+        cursor: pointer;
+        margin: .5rem;
+    }
+}

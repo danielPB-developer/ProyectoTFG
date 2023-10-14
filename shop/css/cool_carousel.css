@@ -1,0 +1,59 @@
+.cool-carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.cool-carousel .cool-carousel-viewer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: row nowrap;
+      -ms-flex-positive: row nowrap;
+          flex-grow: row nowrap;
+  gap: 1rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  padding: 1rem;
+  position: relative;
+  left: 0;
+}
+.cool-carousel .icon-prev, .cool-carousel .icon-next {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 16px;
+  height: 32px;
+  border-radius: 5%;
+  background-color: rgba(150, 150, 150, 0.7607843137);
+  color: white;
+  border: 5px solid rgba(218, 218, 218, 0.4);
+  padding: 0.5em;
+  top: 50%;
+  -webkit-transform: translateY(-50%), translateX(0);
+          transform: translateY(-50%), translateX(0);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.cool-carousel .icon-prev.hide, .cool-carousel .icon-next.hide {
+  display: none;
+}
+.cool-carousel .icon-prev:hover, .cool-carousel .icon-next:hover {
+  background-color: rgb(61, 192, 61);
+  width: 32px;
+  border-radius: 50%;
+}
+.cool-carousel .icon-prev {
+  left: 0;
+}
+.cool-carousel .icon-next {
+  right: 0;
+}/*# sourceMappingURL=cool_carousel.css.map */

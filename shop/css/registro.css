@@ -1,0 +1,26 @@
+#registroForm {
+  margin-bottom: 4rem;
+}
+#registroForm fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 0;
+  width: clamp(300px, 300px + 10vw, 50vw);
+}
+#registroForm fieldset label {
+  width: 33%;
+}
+#registroForm fieldset input {
+  width: 60%;
+}
+#registroForm input[type=submit] {
+  color: #fff;
+  border: 2px solid #00af00;
+  background-color: #00af00;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin: 0.5rem;
+}/*# sourceMappingURL=registro.css.map */

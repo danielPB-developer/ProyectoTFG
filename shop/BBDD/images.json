@@ -1,0 +1,24 @@
+{
+  "banner": [
+    {
+      "imagen": "./slider-01",
+      "texto": "Producto 1"
+    },
+    {
+      "imagen": "./slider-02",
+      "texto": "Producto 1"
+    },
+    {
+      "imagen": "./slider-03",
+      "texto": "Producto 1"
+    },
+    {
+      "imagen": "./slider-04",
+      "texto": "Producto 1"
+    },
+    {
+      "imagen": "./slider-05",
+      "texto": "Producto 1"
+    }
+  ]
+}

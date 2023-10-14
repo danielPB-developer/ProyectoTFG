@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+  }
+  html,body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    > header {
+      .container{
+        width: $max-width;
+      }
+    }
+    > main{
+      width: $max-width;
+      margin: 0 auto;
+      .container{
+        width: $max-width;
+      }
+    }
+    > footer{
+      .container{
+        display: flex;
+        gap: 1rem;
+        margin: 3rem auto 1rem auto;
+        width: $max-width;
+        > div{
+          width: clamp(320px,calc(33% - 1rem), 100%);
+        }
+      }
+    }
+  }
+  img{
+    max-width: 100%;
+  }
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .titulo-seccion{
+    width: 100%;
+  }
+  .buy-button{
+    @include button($global-radius,$green-1,white,1rem,.5rem 1rem)
+  }
+  .view-button{
+    @include button($global-radius,$blue-1,white,1rem,.5rem 1rem)
+  }
+  #bread-crumbs{
+    display: none;
+    margin: 1rem 0;
+    padding: .5rem;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  .common-version{
+    font-size: 1;
+  }
+  #resetCart{
+    margin-bottom: 1rem;
+      color: white;
+      border: 2px solid #00af00;
+      background-color: #00af00;
+      font-size: 1rem;
+      padding: .5rem 1rem;
+      border-radius: .3rem;
+      cursor: pointer;
+      margin-right: 1rem;
+  }
+  #goCheckout{
+    margin-bottom: 1rem;
+    color: white;
+    border: 2px solid #1a94f8;
+    background-color: #1a94f8;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    cursor: pointer;
+  }
